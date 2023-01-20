@@ -68,7 +68,7 @@ app.post("/ajax/email", function (request, response) {
     var mail = {
         from: '"Team: Xyncs Web Studio',
         to: 'hebrit_626@hotmail.com',
-        subject: '¡Alguien ha dejado sus datos en Ruta 200!',
+        subject: '¡Alguien ha dejado sus datos en Sindicato Nacional Humanista!',
         html: htmlBody
     };
     transporter.sendMail(mail, function (err, info) {

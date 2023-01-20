@@ -5,7 +5,6 @@
 }
 .footer{
     padding-top: 3%;
-    background-color: #172536;
     color: white;
 
 }
@@ -15,6 +14,10 @@
     margin-left: auto;
     margin-right: auto;
     
+}
+.noticiasDiv{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .mapGoogle{
     width: 100%;
@@ -44,14 +47,7 @@
     font-size: 1.5rem !important;
     margin-top: 4%;
 }
-.bannerDivInicio{
-    height: 40rem;
-    background-image: url("/assets/images/bannerRuta.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 25% 315%;
-}
+
 .greenCard{
     margin-top: -5%;
     padding: 2%;
@@ -93,12 +89,15 @@
     color: #c90404 ;
 }
 .scrollText1{
-    width: 500px;
+    /* width: 500px; */
     height: 150px;
     overflow: scroll;
 }
 .rojoBg{
     background-color: #c90404 !important;
+}
+.divRequisitos{
+    margin-bottom: 5%;
 }
 .sindicatoBannerInicio{
     padding-top: 5%;
@@ -115,14 +114,14 @@
     margin-top: -3%;
 }
 .navbar-toggler{
-    color: white !important;
+    color: black !important;
 }
 .imageLogoInicio{
    width: 6rem;
    margin-bottom: 10%;
 }
 .nav-link:hover{
-    color:  #fbcb43 !important;
+    color:  #c90404 !important;
 }
 .construc{
     margin-top: -10%;
@@ -144,11 +143,7 @@
     background-position: 25% 47%;
 
 }
-.cardNosotrosDiv1{
-    background-color: #fbcb43 !important;
-    border-radius: 0px !important;
-    font-weight: bolder !important;
-}
+
 .img-casco2{
     width: 80%;
     margin-top: 5%;
@@ -228,14 +223,13 @@
 .misionVision{
     margin-top: 6%;
 }
+
 @media (min-width: 992px) {
     .logoFluid{
         margin-top: 3%;
         
     }
-    .bannerDivInicio{
-        height: 43rem;
-    }
+
     .footer{
         /* margin-top: -9%; */
         padding-bottom: 2%;
@@ -255,13 +249,19 @@
 }
 
 @media(max-width:991px){
+
+    .scrollText1{
+        /* width: 300px; */
+        height: 150px;
+        overflow: scroll;
+    }
+    .participaQuerie{
+        margin-top: 3rem !important;
+        text-align: center !important;
+    }
     .btnIn{
         margin-bottom: 7%;
     }
-    .antesDeContactoDiv{
-        margin-bottom: -10% !important;
-    }
-   
     .bottomMargin18{
         margin-bottom: -18% !important;
         
@@ -313,15 +313,7 @@
     .construc{
         margin-top: -60%;
     }
-    .imageLogoInicio{
-        width: 30%;
-        margin-bottom: -3%;
-        margin-left: -3%;
-    }
-    .bannerDivInicio{
-        height: 27rem;
-        background-position: 54% 140%;
-    }
+
     .divCatchUp{
         display: none;
     }

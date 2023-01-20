@@ -25,7 +25,7 @@
                         <a class="nav-link text-black" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-black" href="#servicios">Servicios</a>
+                        <a class="nav-link text-black" href="#requisitosIngreso">Participa con el sindicato</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-black" href="/privacidad">Política de privacidad</a>
@@ -48,17 +48,17 @@
 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 participaQuerie">
                     <h2 class="text-black">Participa con nosotros
                     </h2>
                     <hr>
 
-                    <h5 class="" style="width: 85%;">Somos una asociación de trabajadores sin fines de lucro cuyo
+                    <h5 class="somosQuerie">Somos una asociación de trabajadores sin fines de lucro cuyo
                         principal objetivo es el estudio,
                         mejoramiento y defensa de los intereses económicos y laborales de los trabajadores para mejorar
                         su calidad de vida y la de sus familias.
                         <br> <br>
-                        <button type="button" class="btn rojoBg text-white">Ver requisitos</button>
+                        <button type="button" class="btn rojoBg text-white" onclick="location.href='#requisitosIngreso';">Ver requisitos</button>
                     </h5> <br>
                     <hr>
                     <h5 class="scrollText1">Nuestra asociación esta constituida desde el año 2014 y está integrada por
@@ -75,7 +75,7 @@
             </div>
         </div>
     </div>
-    <div class="bannerSindicato2">
+    <div class="bannerSindicato2" id="nosotros">
         <div class="container">
             <div class="row">
                 <div class="col-md-2"></div>
@@ -94,7 +94,7 @@
         <!---->
         <!---->
         <section draggable="false" class="container pt-5 valueProposition" data-v-271253ee="">
-            <section class="mb-10 text-center">
+            <section class="text-center">
                 <h2 class="mb-5 text-center"> <span class="me-1"></span> <span style="color: #D42930;">Nuestros Valores
                     </span></h2>
                 <div class="row gx-lg-5">
@@ -140,62 +140,75 @@
         </section>
         <!---->
     </div>
-    <div class="noticiasDiv">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="/assets/images/funcionaria1.jpg" class="card-img-top" alt="Fissure in Sandstone" />
-                        <div class="card-body">
-                            <h5 class="card-title">México recibe 2023 con aumentos al salario mínimo y a los días de
-                                vacaciones</h5>
-                            <hr>
-                            <p class="card-text">El aumento al salario mínimo y a los días de descanso para todos los
-                                trabajadores mexicanos se hizo realidad este domingo con la llegada del Año Nuevo...</p>
-                            <a href="#!" class="btn btn-primary">Button</a>
-                        </div>
+    <div data-draggable="true" style="position: relative;" class="divRequisitos" id="requisitosIngreso">
+        <!---->
+        <!---->
+        <section draggable="false" class="container pt-5" data-v-271253ee="">
+            <section class="">
+                <style>
+                    @media (min-width: 992px) {
+                        #cta-img-nml-50 {
+                            margin-left: 50px;
+                        }
+                    }
+                </style>
+                <div class="row gx-0">
+                    <div class="col-lg-5 mb-4 mb-md-0">
+                        <div class="d-flex py-md-5"> <img src="assets/images/manosFuerza.jpg"
+                                class="w-100 rounded-5 shadow-3-strong" id="cta-img-nml-50" style="z-index: 10" alt=""
+                                aria-controls="#picker-editor"> </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="/assets/images/textil1.jpg" class="card-img-top" alt="Fissure in Sandstone" />
-                        <div class="card-body">
-                            <h5 class="card-title">Industria textil de Puebla prevé mayores inversiones y nuevos empleos
-                                para el 2023</h5>
-                            <hr>
-                            <p class="card-text">Los empresarios expusieron que la alta demanda de producción por parte
-                                de Estados Unidos seguirá por los próximos dos años...</p>
-                            <a href="#!" class="btn btn-primary">Button</a>
-                        </div>
-                    </div>
-                </div>
+                    <div class="col-lg-7 mb-4 mb-md-0">
+                        <div class="rojoBg h-100 rounded-6 p-4 ps-lg-5 text-white d-flex align-items-center">
+                            <div class="ps-lg-5">
+                                <h2 class="fw-bold mb-4">Pertenece al sindicato nacional humanista</h2>
+                                <hr>
+                                <h4>Requisitos:</h4>
+                                <hr>
+                                <div class="row mb-2">
+                                    <div class="col-lg-4">
+                                        <p><i class="fas fa-check-circle me-2"></i><span>Ser trabajador en el ramo de la
+                                                industria textil.</span></p>
+                                    </div>
 
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="/assets/images/sindicalMujer.jpg" class="card-img-top"
-                            alt="Fissure in Sandstone" />
-                        <div class="card-body">
-                            <h5 class="card-title">Destacan papel de la mujer en el mundo sindical</h5> <hr>
-                            <p class="card-text">Siempre es un enorme gusto venir a tierras duranguenses para encontrarme con la base trabajadora del IMSS, con sus representantes y con la estructura sindical de la Sección...</p>
-                            <a href="#!" class="btn btn-primary">Button</a>
+                                    <div class="col-lg-4">
+                                        <p> <i class="fas fa-check-circle me-2"></i><span>No tener antecedentes
+                                                delictivos.</span> </p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <p> <i class="fas fa-check-circle me-2"></i><span>Cubrir la cuota de inscripción
+                                                correspondiente.</span> </p>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-lg-4">
+                                        <p><i class="fas fa-check-circle me-2"></i><span>Llenar la solicitud de ingreso
+                                                al Sindicato, entregándola al Comité Ejecutivo Nacional.</span></p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <p><i class="fas fa-check-circle me-2"></i><span>Aprobación de la Solicitud de
+                                                ingreso por el Comité Ejecutivo Nacional.</span></p>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <p><i class="fas fa-check-circle me-2"></i><span>Ser mexicano por nacimiento o
+                                                naturalización. En caso de ser extranjero deberá contar con el permiso
+                                                correspondiente.</span></p>
+                                    </div>
+                                </div> <hr>
+                                <p>Avenida Jorge Jiménez Cantu, plaza Antigua #2 Torre 4. Despacho 408. Colonia Hacienda
+                                    de Valle Esondido, Atizapan de Zaragoza. Estado de México.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="/assets/images/shein.jpg" class="card-img-top"
-                            alt="Fissure in Sandstone" />
-                        <div class="card-body">
-                            <h5 class="card-title">Luchando por un México más justo, donde se erradique la pobreza, la discriminación": Claudia Sheinbaum comparte</h5> <hr>
-                            <p class="card-text">A través de una video conferencia, en la que se enlazaron decenas de tapatíos...</p>
-                            <a href="#!" class="btn btn-primary">Button</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            </section>
+        </section>
+        <!---->
     </div>
-    <div id="contacto" class="contactoDiv">
+
+    <div id="contacto" class="contactoDiv bg-dark">
         <div data-draggable="true" style="position: relative;">
             <!---->
             <!---->
@@ -213,11 +226,13 @@
                         }
                     </style>
                     <div class="card mx-4 mx-md-5 shadow-5-strong"
-                        style=" margin-top: -100px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px); ">
+                        style=" margin-top: -100px; background: white; backdrop-filter: blur(30px); ">
 
                         <div class="card-body py-5 px-md-5">
                             <div class="row text-center">
-                                <h3>COMUNÍCATE</h3> <br> <br> <br>
+                                <h3>Contáctanos</h3> <hr>
+                                <h5>El capital humano es lo más importante</h5>
+                                 <br> <br>
                             </div>
 
                             <div class="row d-flex justify-content-center topMargin18">
@@ -274,6 +289,71 @@
                 </section>
             </section>
             <!---->
+        </div>
+    </div>
+    <div class="noticiasDiv">
+        <div class="container">
+            <h4>Noticias</h4>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="/assets/images/funcionaria1.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body">
+                            <h5 class="card-title">México recibe 2023 con aumentos al salario mínimo y a los días de
+                                vacaciones</h5>
+                            <hr>
+                            <p class="card-text">El aumento al salario mínimo y a los días de descanso para todos los
+                                trabajadores mexicanos se hizo realidad este domingo con la llegada del Año Nuevo...</p>
+                            <a href="https://www.sandiegouniontribune.com/en-espanol/noticias/mexico/articulo/2023-01-01/mexico-recibe-2023-con-aumentos-al-salario-minimo-y-a-los-dias-de-vacaciones#:~:text=%E2%80%9CHoy%2C%201%20de%20enero%20de,6%20d%C3%B3lares)%E2%80%9D%2C%20explic%C3%B3."
+                                class="btn rojoBg text-white" target="_blank">Ver noticia</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="/assets/images/textil1.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body">
+                            <h5 class="card-title">Industria textil de Puebla prevé mayores inversiones y nuevos empleos
+                                para el 2023</h5>
+                            <hr>
+                            <p class="card-text">Los empresarios expusieron que la alta demanda de producción por parte
+                                de Estados Unidos seguirá por los próximos dos años...</p>
+                            <a href="https://www.eleconomista.com.mx/estados/Industria-textil-de-Puebla-preve-mayores-inversiones-y-nuevos-empleos-para-el-2023-20221115-0120.html"
+                                class="btn rojoBg text-white" target="_blank">Ver noticia</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="/assets/images/sindicalMujer.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body">
+                            <h5 class="card-title">Destacan papel de la mujer en el mundo sindical</h5>
+                            <hr>
+                            <p class="card-text">Siempre es un enorme gusto venir a tierras duranguenses para
+                                encontrarme con la base trabajadora del IMSS, con sus representantes y con la estructura
+                                sindical de la Sección...</p>
+                            <a href="https://sntss.org.mx/noticias/destacan-papel-de-la-mujer-en-el-mundo-sindical"
+                                class="btn rojoBg text-white" target="_blank">Ver noticia</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="/assets/images/shein.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body">
+                            <h5 class="card-title">Luchando por un México más justo, donde se erradique la pobreza, la
+                                discriminación": Claudia Sheinbaum comparte</h5>
+                            <hr>
+                            <p class="card-text">A través de una video conferencia, en la que se enlazaron decenas de
+                                tapatíos...</p>
+                            <a href="https://www.eleconomista.com.mx/politica/Seguimos-luchando-por-un-Mexico-mas-justo-donde-se-erradique-la-pobreza-la-discriminacion-el-clasismo-y-el-racismo-Claudia-Sheinbaum-comparte-con-tapatios-en-videoconferencia-20230113-0039.html"
+                                class="btn rojoBg text-white" target="_blank">Ver noticia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
