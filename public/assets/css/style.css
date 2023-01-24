@@ -8,6 +8,11 @@
     color: white;
 
 }
+.titleCapital{
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 30%;
+    font-size: 2.5rem;
+}
 .logoFluid{
     width: 30%;
     display: block;
@@ -64,6 +69,14 @@
 .privacidadBanner{
     height: 36rem;
     background-image: url("/assets/images/bannerPrivacidad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bannerTextil{
+    height: 36rem;
+    background-image: url("/assets/images/textil.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,6 +262,9 @@
 }
 
 @media(max-width:991px){
+    .bannerTextil{
+        height: 23rem !important;
+    }
 
     .scrollText1{
         /* width: 300px; */
