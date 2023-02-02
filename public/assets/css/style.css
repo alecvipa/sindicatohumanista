@@ -1,44 +1,57 @@
-
-.fonts3{
+.fonts3 {
     font-family: 'Nunito Sans', sans-serif !important;
 
 }
-.footer{
+
+.footer {
     padding-top: 3%;
     color: white;
 
 }
-.titleCapital{
+
+.justyText {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.titleCapital {
     /* text-shadow: 2px 2px 4px #000000; */
     margin-top: 7%;
     font-size: 2rem;
     border-radius: 8px;
 }
-.logoFluid{
+
+.logoFluid {
     width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
-.noticiasDiv{
+
+.noticiasDiv {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.mapGoogle{
+
+.mapGoogle {
     width: 100%;
 }
-.dondeEncontrarnos{
+
+.dondeEncontrarnos {
     margin-bottom: 2%;
 }
+
 .pointer {
     cursor: pointer;
 }
-.navBar{
-   
+
+.navBar {
+
     color: white;
 }
-.imageOptions{
+
+.imageOptions {
     width: 80% !important;
     display: block;
     margin-left: auto;
@@ -46,28 +59,30 @@
     margin-top: 5%;
 }
 
-.btnContacto{
+.btnContacto {
     display: block !important;
-    margin-right: auto  !important;
+    margin-right: auto !important;
     margin-left: auto !important;
     font-size: 1.5rem !important;
     margin-top: 4%;
 }
 
-.greenCard{
+.greenCard {
     margin-top: -5%;
     padding: 2%;
-    background-color: #172536  !important ;
+    background-color: #172536 !important;
 }
-.nosotrosSomos{
+
+.nosotrosSomos {
     margin-top: -3%;
-    
+
 }
-#nosotros{
+
+#nosotros {
     margin-bottom: 5%;
 }
 
-.privacidadBanner{
+.privacidadBanner {
     height: 36rem;
     background-image: url("/assets/images/bannerPrivacidad.jpg");
     background-position: center;
@@ -75,7 +90,8 @@
     background-size: cover;
 
 }
-.bannerTextil{
+
+.bannerTextil {
     height: 36rem;
     background-image: url("/assets/images/textil.jpg");
     background-position: center;
@@ -83,64 +99,80 @@
     background-size: cover;
 
 }
-.cardSindi{
+
+.cardSindi {
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.bannerSindicato2{
+
+.bannerSindicato2 {
     padding: 5%;
-   background-color: rgb(38, 37, 37);
+    background-color: rgb(38, 37, 37);
 }
-.sindicatoLogoBlack{
+
+.sindicatoLogoBlack {
     height: 30%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-.rojoColor{
-    color: #c90404 ;
+
+.rojoColor {
+    color: #c90404;
 }
-.scrollText1{
+
+.scrollText1 {
     /* width: 500px; */
     height: 150px;
     overflow: scroll;
 }
-.rojoBg{
+
+.rojoBg {
     background-color: #c90404 !important;
 }
-.divRequisitos{
+
+.divRequisitos {
     margin-bottom: 5%;
 }
-.sindicatoBannerInicio{
+
+.sindicatoBannerInicio {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.form-check-input{
+
+.form-check-input {
     background-color: black !important;
 }
-.tablePrivacidad{
+
+.tablePrivacidad {
     margin-bottom: 15%;
 }
-.divCatchUp{
+
+.divCatchUp {
     padding-top: 3%;
     margin-top: -3%;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     color: black !important;
 }
-.imageLogoInicio{
-   width: 6rem;
-   margin-bottom: 10%;
+
+.imageLogoInicio {
+    width: 6rem;
+    margin-bottom: 10%;
 }
-.nav-link:hover{
-    color:  #c90404 !important;
+
+.nav-link:hover {
+    color: #c90404 !important;
 }
-.construc{
+
+.construc {
     margin-top: -10%;
 }
-.construcDescanso2{
+
+.construcDescanso2 {
     height: 10rem;
     background-image: url("/assets/images/construccionImg.jpg");
     background-position: center;
@@ -148,7 +180,8 @@
     background-size: cover;
     background-position: 25% 43%;
 }
-.bannerServiciosInicio{
+
+.bannerServiciosInicio {
     height: 25rem;
     background-image: url("/assets/images/bannerServiciosFireH.jpg");
     background-position: center;
@@ -158,101 +191,118 @@
 
 }
 
-.img-casco2{
+.img-casco2 {
     width: 80%;
     margin-top: 5%;
     margin-bottom: 5%;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.btnIn{
+
+.btnIn {
     background-color: #b80605 !important;
     color: white !important;
 }
-.bgRedRuta{
+
+.bgRedRuta {
     background-color: #b80605 !important;
     color: white !important;
 
 }
-.quienesSomosDiv{
+
+.quienesSomosDiv {
     background-color: grey;
     margin-top: -10%;
     padding-top: 3%;
 }
-.cardLinkNosotros:hover{
+
+.cardLinkNosotros:hover {
     color: black !important;
 }
-.orangeCard{
-    background-color:  #fc764d;
+
+.orangeCard {
+    background-color: #fc764d;
     padding: 3%;
     margin-top: -5%;
 }
-.blueIshCard{
-    background-color:  #ac7f6d;
+
+.blueIshCard {
+    background-color: #ac7f6d;
     padding: 3%;
     margin-top: -5%;
     margin-bottom: 5%;
 }
-.orangeIshCard{
-    background-color:   #4576ae;
+
+.orangeIshCard {
+    background-color: #4576ae;
     padding: 3%;
     margin-top: 5%;
     margin-bottom: 5%;
-    
+
 }
-.iconLogo{
+
+.iconLogo {
     margin-top: 7% !important;
 }
-.textGreenIsh{
+
+.textGreenIsh {
     color: #4576ae !important;
 }
-.tierraDiv{
+
+.tierraDiv {
     margin-bottom: 3%;
 }
-.contactoDiv{
-    background-color:  #def4e3  !important;
+
+.contactoDiv {
+    background-color: #def4e3 !important;
     padding-top: 15%;
     padding-bottom: 1%;
 }
-.logoRutaJpg{
+
+.logoRutaJpg {
     width: 20%;
     margin-bottom: 3%;
 }
-.ventajasDiv{
-    background-color:  #def4e3  !important;
+
+.ventajasDiv {
+    background-color: #def4e3 !important;
     padding-top: 3%;
     padding-bottom: 1%;
 }
-.imagesRuta{
+
+.imagesRuta {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.carouselRutaDos{
+
+.carouselRutaDos {
     display: block;
     margin-left: auto;
     margin-left: auto;
     margin-top: 7%;
 }
-.misionVision{
+
+.misionVision {
     margin-top: 6%;
 }
 
 @media (min-width: 992px) {
-    .logoFluid{
+    .logoFluid {
         margin-top: 3%;
-        
+
     }
 
-    .footer{
+    .footer {
         /* margin-top: -9%; */
         padding-bottom: 2%;
     }
-    .quieneSomosTitle{
+
+    .quieneSomosTitle {
         margin-top: -6%;
         font-size: 3rem;
     }
-    
+
     .rounded-tr-lg-0 {
         border-top-right-radius: 0;
     }
@@ -262,88 +312,105 @@
     }
 }
 
-@media(max-width:991px){
-    .titleCapital{
+@media(max-width:991px) {
+    .titleCapital {
         font-size: 1.5rem;
-    
+
     }
-    .bannerTextil{
+
+    .bannerTextil {
         height: 23rem !important;
     }
 
-    .scrollText1{
+    .scrollText1 {
         /* width: 300px; */
         height: 150px;
         overflow: scroll;
     }
-    .participaQuerie{
+
+    .participaQuerie {
         margin-top: 3rem !important;
         text-align: center !important;
     }
-    .btnIn{
+
+    .btnIn {
         margin-bottom: 7%;
     }
-    .bottomMargin18{
+
+    .bottomMargin18 {
         margin-bottom: -18% !important;
-        
+
     }
-    .contactoDiv{
+
+    .contactoDiv {
         padding-top: 50%;
     }
-    .blueIshCard{
+
+    .blueIshCard {
         margin-top: -30%;
         margin-bottom: 15%;
     }
-    .logoFluid{
+
+    .logoFluid {
         width: 70%;
     }
-    .orangeCard{
+
+    .orangeCard {
         margin-top: -40%;
     }
-    
-    .videoDiv{
+
+    .videoDiv {
         margin-top: -20% !important;
     }
-    .excavarDiv{
+
+    .excavarDiv {
         margin-top: -25%;
     }
-    .quieneSomosTitle{
+
+    .quieneSomosTitle {
         font-size: 36px;
     }
-    .bannerServiciosInicio{
+
+    .bannerServiciosInicio {
         height: 15rem;
         background-image: url("/assets/images/bannerServiciosFireH.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 47%;
-    
+
     }
-    .contentValores{
+
+    .contentValores {
         margin-top: 5%;
         padding: 2%;
     }
-    .img-casco2{
+
+    .img-casco2 {
         display: none;
     }
-    .cardNosotrosDiv1{
+
+    .cardNosotrosDiv1 {
         width: 18rem;
         margin-left: auto;
         margin-right: auto;
     }
-    .construc{
+
+    .construc {
         margin-top: -60%;
     }
 
-    .divCatchUp{
+    .divCatchUp {
         display: none;
     }
-    .footer{
+
+    .footer {
         padding-top: 10%;
         padding-left: 3%;
         padding-right: 3%;
     }
-    .responsiveMarginCard{
+
+    .responsiveMarginCard {
         margin-top: 5%;
     }
 }
